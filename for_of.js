@@ -1,0 +1,17 @@
+// for of --> serve para fazer iteração em array
+
+const arr = [1,2,3]
+const obj = {
+    nome: "Fernanda",
+    idade: "23",
+    email: "fernandacarvalho@gmail.com"
+}
+
+for (let prop in obj) {
+    console.log(prop)
+    console.log(obj[prop])
+}
+
+for (n of arr) {
+    console.log(n)
+}
